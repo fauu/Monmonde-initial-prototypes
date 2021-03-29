@@ -1,0 +1,635 @@
+
+atlas.png
+size: 64,32
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+exploration/sprites/16
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+exploration/sprites/player
+  rotate: false
+  xy: 20, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+
+atlas2.png
+size: 64,32
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+exploration/tiles/grass
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 0
+exploration/tiles/tree
+  rotate: false
+  xy: 20, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: 0
+
+atlas3.png
+size: 64,32
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+exploration/tiles/internal/Untitled
+  rotate: false
+  xy: 2, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+exploration/tiles/internal/highlight
+  rotate: false
+  xy: 20, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+exploration/tiles/internal/obscuration
+  rotate: false
+  xy: 38, 2
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+
+atlas4.png
+size: 1024,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/sprites/front/16
+  rotate: false
+  xy: 2, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 0
+battle/sprites/front/16
+  rotate: false
+  xy: 40, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 1
+battle/sprites/front/16
+  rotate: false
+  xy: 78, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 2
+battle/sprites/front/16
+  rotate: false
+  xy: 116, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 3
+battle/sprites/front/16
+  rotate: false
+  xy: 154, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 4
+battle/sprites/front/16
+  rotate: false
+  xy: 192, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 5
+battle/sprites/front/16
+  rotate: false
+  xy: 230, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 6
+battle/sprites/front/16
+  rotate: false
+  xy: 268, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 7
+battle/sprites/front/16
+  rotate: false
+  xy: 306, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 8
+battle/sprites/front/16
+  rotate: false
+  xy: 344, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 9
+battle/sprites/front/16
+  rotate: false
+  xy: 382, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 10
+battle/sprites/front/16
+  rotate: false
+  xy: 420, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 11
+battle/sprites/front/16
+  rotate: false
+  xy: 458, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 12
+battle/sprites/front/16
+  rotate: false
+  xy: 496, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 13
+battle/sprites/front/16
+  rotate: false
+  xy: 534, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 14
+battle/sprites/front/16
+  rotate: false
+  xy: 572, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 15
+battle/sprites/front/16
+  rotate: false
+  xy: 610, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 16
+battle/sprites/front/16
+  rotate: false
+  xy: 648, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 17
+battle/sprites/front/16
+  rotate: false
+  xy: 686, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 18
+battle/sprites/front/16
+  rotate: false
+  xy: 724, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 19
+battle/sprites/front/16
+  rotate: false
+  xy: 762, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 20
+battle/sprites/front/16
+  rotate: false
+  xy: 800, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 21
+battle/sprites/front/16
+  rotate: false
+  xy: 838, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 22
+battle/sprites/front/16
+  rotate: false
+  xy: 876, 2
+  size: 36, 49
+  orig: 36, 49
+  offset: 0, 0
+  index: 23
+battle/sprites/front/16
+  rotate: false
+  xy: 914, 10
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+
+atlas5.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 0
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 44
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 1
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 2
+battle/sprites/back/1
+  rotate: false
+  xy: 56, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 3
+battle/sprites/back/1
+  rotate: false
+  xy: 56, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 4
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 5
+battle/sprites/back/1
+  rotate: false
+  xy: 56, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 6
+battle/sprites/back/1
+  rotate: false
+  xy: 110, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 7
+battle/sprites/back/1
+  rotate: false
+  xy: 2, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 8
+battle/sprites/back/1
+  rotate: false
+  xy: 56, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 9
+battle/sprites/back/1
+  rotate: false
+  xy: 110, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 10
+battle/sprites/back/1
+  rotate: false
+  xy: 164, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 11
+battle/sprites/back/1
+  rotate: false
+  xy: 56, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 12
+battle/sprites/back/1
+  rotate: false
+  xy: 110, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 13
+battle/sprites/back/1
+  rotate: false
+  xy: 164, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 14
+battle/sprites/back/1
+  rotate: false
+  xy: 218, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 15
+battle/sprites/back/1
+  rotate: false
+  xy: 110, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 16
+battle/sprites/back/1
+  rotate: false
+  xy: 164, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 17
+battle/sprites/back/1
+  rotate: false
+  xy: 218, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 18
+battle/sprites/back/1
+  rotate: false
+  xy: 272, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 19
+battle/sprites/back/1
+  rotate: false
+  xy: 164, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 20
+battle/sprites/back/1
+  rotate: false
+  xy: 218, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 21
+battle/sprites/back/1
+  rotate: false
+  xy: 272, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 22
+battle/sprites/back/1
+  rotate: false
+  xy: 326, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 23
+battle/sprites/back/1
+  rotate: false
+  xy: 218, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 24
+battle/sprites/back/1
+  rotate: false
+  xy: 272, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 25
+battle/sprites/back/1
+  rotate: false
+  xy: 326, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 26
+battle/sprites/back/1
+  rotate: false
+  xy: 380, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 27
+battle/sprites/back/1
+  rotate: false
+  xy: 272, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 28
+battle/sprites/back/1
+  rotate: false
+  xy: 326, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 29
+battle/sprites/back/1
+  rotate: false
+  xy: 380, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 30
+battle/sprites/back/1
+  rotate: false
+  xy: 434, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 31
+battle/sprites/back/1
+  rotate: false
+  xy: 326, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 32
+battle/sprites/back/1
+  rotate: false
+  xy: 380, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 33
+battle/sprites/back/1
+  rotate: false
+  xy: 434, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 34
+battle/sprites/back/1
+  rotate: false
+  xy: 488, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 35
+battle/sprites/back/1
+  rotate: false
+  xy: 380, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 36
+battle/sprites/back/1
+  rotate: false
+  xy: 434, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 37
+battle/sprites/back/1
+  rotate: false
+  xy: 488, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 38
+battle/sprites/back/1
+  rotate: false
+  xy: 542, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 39
+battle/sprites/back/1
+  rotate: false
+  xy: 434, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 40
+battle/sprites/back/1
+  rotate: false
+  xy: 488, 54
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 41
+battle/sprites/back/1
+  rotate: false
+  xy: 542, 106
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 42
+battle/sprites/back/1
+  rotate: false
+  xy: 596, 158
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: 43
+
+atlas6.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/hud/mon-plate/bg
+  rotate: false
+  xy: 2, 2
+  size: 10, 17
+  orig: 10, 17
+  offset: 0, 0
+  index: -1
+battle/hud/mon-plate/fatigue-reserve-bar
+  rotate: false
+  xy: 14, 8
+  size: 4, 11
+  orig: 4, 11
+  offset: 0, 0
+  index: -1
+battle/hud/mon-plate/move-bar
+  rotate: false
+  xy: 20, 8
+  size: 4, 11
+  orig: 4, 11
+  offset: 0, 0
+  index: -1
+
+atlas7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/bgs/meadow2
+  rotate: false
+  xy: 2, 2
+  size: 928, 800
+  orig: 928, 800
+  offset: 0, 0
+  index: -1
+
+atlas8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/bgs/meadow3
+  rotate: false
+  xy: 2, 2
+  size: 928, 800
+  orig: 928, 800
+  offset: 0, 0
+  index: -1
+
+atlas9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battle/bgs/meadow
+  rotate: false
+  xy: 2, 2
+  size: 926, 800
+  orig: 926, 800
+  offset: 0, 0
+  index: -1

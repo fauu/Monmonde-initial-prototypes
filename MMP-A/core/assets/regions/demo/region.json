@@ -1,0 +1,29 @@
+{
+  locations: [
+    {
+      type: "HOME",
+      x: 480,
+      y: 505 
+    },
+    {
+      type: "BUS_STOP",
+      x: 705,
+      y: 305
+    },
+    {
+      type: "BUS_STOP",
+      x: 622,
+      y: 666
+    },
+    {
+      type: "MEADOW",
+      x: 730,
+      y: 425
+    },
+    {
+   	  type: "FOREST",
+   	  x: 750,
+   	  y: 200
+    }
+  ]
+}

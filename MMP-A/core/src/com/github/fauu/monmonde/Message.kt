@@ -1,0 +1,11 @@
+package com.github.fauu.monmonde
+
+object Message {
+	val REGION_LOCATION_SELECTED = 1
+	val ACTIVE_SCREEN_CHANGED = 2
+  val VISIBLE_MONS_CHANGED = 3
+  val VISIBLE_MON_SELECTED = 4
+  val ENCOUNTER_INITIATED = 5
+  val ACTIVE_SCREEN_CHANGE_REQUESTED = 6
+  val AREA_PLAYER_MOVED = 7
+}

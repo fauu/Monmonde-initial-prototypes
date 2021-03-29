@@ -1,0 +1,16 @@
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+eclipse.project.name = appName + '-core'
+
+dependencies {
+  compile "com.badlogicgames.gdx:gdx:$gdxVersion"
+  compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+  compile "com.badlogicgames.gdx:gdx-ai:$aiVersion"
+  compile "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  compile "net.onedaybeard.artemis:artemis-odb:$artemisOdbVersion"
+  compile "com.strongjoshua:libgdx-inGameConsole:$inGameConsoleVersion"
+  compile "net.mostlyoriginal.artemis-odb:contrib-core:$artemisOdbContribVersion"
+  compile "net.mostlyoriginal.artemis-odb:contrib-eventbus:$artemisOdbContribVersion"
+  compile "se.feomedia.orion:artemis-odb-orion:$artemisOdbOrionVersion"
+  compile fileTree(dir: '../libs', include: 'tween-engine-api.jar')
+}
+        

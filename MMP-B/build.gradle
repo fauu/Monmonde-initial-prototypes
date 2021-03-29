@@ -1,0 +1,56 @@
+import com.badlogic.gdx.tools.texturepacker.TexturePacker
+
+buildscript {
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    flatDir {
+      dirs 'libs'
+    }
+  }
+  dependencies {
+    classpath "com.badlogicgames.gdx:gdx-tools:$gdxVersion"
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+  }
+}
+
+allprojects {
+  apply plugin: 'eclipse'
+  apply plugin: 'idea'
+}
+
+configure(subprojects) {
+  apply plugin: 'java'
+  apply plugin: 'kotlin'
+  sourceCompatibility = 1.6
+}
+
+subprojects {
+  version = '0.0.1-SNAPSHOT'
+  ext.appName = 'monmonde'
+  repositories {
+    mavenLocal()
+    mavenCentral()
+    jcenter()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+  }
+}
+
+task pack << {
+  fileTree("raw-assets/battle/sprites/").matching { include "**/*.gif" }.each { file ->
+    exec {
+      commandLine 'convert'
+      args = ['-coalesce', file.absolutePath, file.absolutePath.substring(0, file.absolutePath.lastIndexOf("/")) + '/' + file.name.substring(0, file.name.lastIndexOf(".")) + "_%02d.png"]
+    }
+  }
+  TexturePacker.process("raw-assets", "assets", "atlas")
+}
+
+// Clearing Eclipse project data in root folder:
+tasks.eclipse.doLast {
+  delete '.project'
+  delete '.classpath'
+  delete '.settings/'
+}
