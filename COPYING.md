@@ -1,0 +1,27 @@
+# Copying Monmonde
+
+Any file specified at the bottom of this document that does not state otherwise
+is part of Monmonde and copyright (c) 2016–2022 Monmonde authors.
+
+For a list of the authors see the commit log or
+https://github.com/fauu/Monmonde/graphs/contributors.
+
+Monmonde is free software; you can redistribute and/or modify it under the terms
+of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+
+Monmonde is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+A PARTICULAR PURPOSE. See the GNU General Public License for more
+details.
+
+See the LICENSE.md file for a copy of the *GNU General Public License*.
+
+Files |
+----- |
+`MMP-A/**/*.{atlas,gradle,json,kt,properties}` |
+`MMP-B/**/*.{glsl,gradle,java,json,kt,properties}` |
+`MMP-C/Assets/*.cs` |
+`MMP-E/**/*.{html,js,json,scss,sh,ts,tsx}` |
+`MMP-F/**/*.{gradle,java,kt,properties,py,sh}` |
